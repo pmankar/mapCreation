@@ -1,6 +1,6 @@
 ﻿import gpxpy
 
-gpx = gpxpy.parse(open('C:\\Users\\usr\\Desktop\\tstA67.gpx', 'r'))
+gpx = gpxpy.parse(open('tstA67.gpx', 'r'))
 print("{} track(s)".format(len(gpx.tracks)))
 track = gpx.tracks[1]
 

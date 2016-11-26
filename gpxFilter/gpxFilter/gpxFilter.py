@@ -12,7 +12,7 @@ def dist(lat1, lon1, lat2, lon2):
 latlon = [49.88354465397444, 8.560190649686984]
 radius = 0.0005 # in latlon distance, for easy calculations
 nextPtDist = 0.005 # next point
-filesList = ["C:/Users/usr/Desktop/A67filtered2.gpx"]
+filesList = ["A67filtered2.gpx"]
 direction = 20
 
 # python gpxFilter.py -p 49.91259382559233,8.510661062464754 -r 0.004 -n 0.004 -d 20 -f A67.gpx
